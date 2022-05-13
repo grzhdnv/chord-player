@@ -1,6 +1,8 @@
 import { Note, Chord, ChordType } from '@tonaljs/tonal'
 import { Howl } from 'howler'
 
+// REDUCE LIST OF CHORDS!!!
+
 const sound = new Howl({
   src: ['assets/pianosprite.mp3'],
   onload() {
