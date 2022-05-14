@@ -63,7 +63,7 @@ const app = {
     for (let i = 1; i <= 5; i++) {
       let octaveNumber = this.createElement('option', i)
       octaveSelector.appendChild(octaveNumber)
-      // make starting octave 3
+      octaveSelector.value = 3
     }
   },
 
